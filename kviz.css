@@ -159,19 +159,11 @@
         background-color: #000;  
         width: max-content;      
     }
-
     /* Change color of dropdown links on hover */
     .header .nav-links li .dropdown .dropdown-content a:hover {background-color: #9E00FF; color: #fff; border-color: #9E00FF;}
 
     /* Show the dropdown menu on hover */
     .header .nav-links li .dropdown:hover .dropdown-content {display: block;}
-
-
-
-
-
-
-
 
     .header .btn-call
     {
@@ -230,13 +222,6 @@
         height: 38px;
         padding: 5px;
     }
-
-
-
-
-
-
-
 
 .main
 {
@@ -311,12 +296,6 @@
     z-index: 95;
 }
 
-
-
-
-
-
-
 .smile
 {
     display: flex;
@@ -332,11 +311,6 @@
     border: 1px solid #fff;
     background-color: #fff;
 }
-
-
-
-
-
 
 /* Секция kviz */
 .kviz
@@ -516,33 +490,7 @@
     border-bottom: none;
 }
 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Claider*/
     .swiper {
         width: 85%;
         height: auto;
@@ -558,9 +506,8 @@
         justify-content: center;
         align-items: end;
         height: 464px;
-        /* border: 1px solid #000; */
         border-radius: 15px;
-        background-image: url("../img/bum_braslet.jpg");
+        background-image: url("img/bum_braslet.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -592,19 +539,19 @@
       }
       .swiper .swiper-slide .swiper-slide-text #one::after
       {
-        background-image: url("../img/men1.jpg");
+        background-image: url("img/men1.jpg");
       }
       .swiper .swiper-slide .swiper-slide-text #two::after
       {
-        background-image: url("../img/men2.jpg");
+        background-image: url("img/men2.jpg");
       }
       .swiper .swiper-slide .swiper-slide-text #three::after
       {
-        background-image: url("../img/men3.jpg");
+        background-image: url("img/men3.jpg");
       }
       .swiper .swiper-slide .swiper-slide-text #four::after
       {
-        background-image: url("../img/men2.jpg");
+        background-image: url("img/men2.jpg");
       }
       .swiper .swiper-slide .swiper-slide-text .swiper-slide-image::before
       {
@@ -618,14 +565,6 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
-
-     /* .swiper .swiper-slide .swiper-slide-image img
-      {
-        border: 1px solid black;
-        border-radius: 50%;
-        width: 80px;
-        height: 80px;
-      } */
       .swiper .swiper-slide .swiper-slide-text p
       {
         font-size: 16px;
@@ -635,8 +574,8 @@
        }
         .swiper .swiper-slide .swiper-slide-text .swiper-slide-person
         {
-            text-align: center;
-            margin: 50px 0 10px;
+         text-align: center;
+         margin: 50px 0 10px;
         }
       .swiper .swiper-slide .swiper-slide-text p > span
       {
@@ -644,44 +583,6 @@
         font-weight: 700;
         line-height: 28.18px;
       } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      /* ---------------------------------------------------------------------- */
-      /* .swiper-button-next, .swiper-button-prev 
-      {
-        margin-top: calc((18 * 1.6));
-        margin-top: calc(0px - (var(1)/ 2));
-      }
-      .swiper-button-prev:after, .swiper-button-next:after {
-        color: #000;
-        background-color: green;
-        padding: 20px;
-        border-radius: 32px;
-    }
-    .swiper-button-next:after, .swiper-button-prev:after {
-        font-size: 18px;
-    } */
-
-
-
-
-
-
-
     /* FOOTER */
     .footer
     {
@@ -774,7 +675,6 @@
         font-weight: 700;
     }
     
-
 
 @media (max-width: 320px)
 {
